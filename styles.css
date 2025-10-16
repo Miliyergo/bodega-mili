@@ -139,3 +139,67 @@ section {
     width: 100%;
   }
 }
+/* ======= Formulario de contacto ======= */
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form input,
+.form textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+
+.form .btn {
+  align-self: center;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.form .btn:hover {
+  background: #1976d2;
+}
+
+/* ======= Ajuste responsive ======= */
+@media (max-width: 600px) {
+  .form {
+    width: 90%;
+    padding: 20px;
+  }
+}
