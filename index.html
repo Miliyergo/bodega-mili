@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi sitio web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenidos a la Bodega de Mili</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="productos" class="productos">
+        <h2>Vinos destacados</h2>
+
+        <div class="cards">
+          <article class="card">
+            <img src="img/vino1.jpg" alt="Vino 1" />
+            <h3>Malbec Reserva 2020</h3>
+            <p>
+              Notas de ciruela, mora y toques de vainilla. Ideal para carnes
+              rojas.
+            </p>
+            <p class="price">$14.500</p>
+            <button class="btn">Agregar</button>
+          </article>
+
+          <article class="card">
+            <img src="img/vino2.jpg" alt="Vino 2" />
+            <h3>Chardonnay Clásico</h3>
+            <p>Aromas frutales y cítricos, con textura suave y fresca.</p>
+            <p class="price">$11.200</p>
+            <button class="btn">Agregar</button>
+          </article>
+
+          <article class="card">
+            <img src="img/vino3.jpg" alt="Vino 3" />
+            <h3>Rosado de los Andes</h3>
+            <p>
+              Color vibrante y sabor dulce. Ideal para aperitivos o postres.
+            </p>
+            <p class="price">$10.800</p>
+            <button class="btn">Agregar</button>
+          </article>
+        </div>
+      </section>
+      <section id="reseñas" class="reseñas">
+        <h2>Reseñas de clientes</h2>
+
+        <div class="grid-reseñas">
+          <article class="item-reseña">
+            <p>“Excelente Malbec, cuerpo intenso y aroma frutal.”</p>
+            <span>– Carla G.</span>
+          </article>
+
+          <article class="item-reseña">
+            <p>“El Chardonnay fue mi favorito. Muy suave y equilibrado.”</p>
+            <span>– Martín P.</span>
+          </article>
+
+          <article class="item-reseña">
+            <p>“Rosado liviano y fresco, ideal para cenas de verano.”</p>
+            <span>– Lucía D.</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <input type="text" placeholder="Tu nombre" />
+          <input type="email" placeholder="Tu correo" />
+          <textarea placeholder="Tu mensaje"></textarea>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Mi sitio web</p>
+    </footer>
+  </body>
+</html>
